@@ -10,6 +10,7 @@ export const load = async ({ params, route, url }) => {
 	console.log('route : ', route);
 	console.log('\n');
 	console.log('params : ', params);
+	console.log('\n\n\n\n\n\n');
 
 	// let urlData = JSON.stringify(url);
 
