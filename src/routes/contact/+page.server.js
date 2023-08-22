@@ -12,19 +12,19 @@ export const load = async ({ params, route, url }) => {
 	console.log('params : ', params);
 	console.log('\n\n\n\n\n\n');
 
-	// let urlString = JSON.stringify(url);
-	// let paramsString = JSON.stringify(params);
+	let urlString = JSON.stringify(url);
+	let paramsString = JSON.stringify(params);
 
-	// return {
-	// 	URL: urlString,
-	// 	href: url.href,
-	// 	origin: url.origin,
-	// 	protocol: url.protocol,
-	// 	hostname: url.hostname,
-	// 	port: url.port,
-	// 	pathname: url.pathname,
-	// 	searchParams: url.searchParams.get('search'),
-	// 	ROUTE: route,
-	// 	PARAMS: paramsString
-	// };
+	return {
+		URL: urlString,
+		href: url.href,
+		origin: url.origin,
+		protocol: url.protocol,
+		hostname: url.hostname,
+		port: url.port,
+		pathname: url.pathname,
+		searchParams: url.searchParams.get('search'),
+		ROUTE: route,
+		PARAMS: paramsString
+	};
 };
