@@ -6,4 +6,15 @@
 
 <pre>{JSON.stringify(data, null, 2)}</pre>
 
-<a href="/work">Work</a>
+<div class="flex">
+	<a href="/">Home</a>
+
+	<a href="/work">Work</a>
+</div>
+
+<style>
+	.flex {
+		display: flex;
+		gap: 2rem;
+	}
+</style>
