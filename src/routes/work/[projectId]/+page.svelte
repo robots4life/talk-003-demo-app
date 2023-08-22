@@ -2,7 +2,7 @@
 	export let data;
 </script>
 
-<h1>Project {data.params.projectID}</h1>
+<!-- how do we display a heading with the project id ?? -->
 
 <pre>{JSON.stringify(data, null, 2)}</pre>
 
