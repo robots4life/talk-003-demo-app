@@ -5,7 +5,7 @@
 
 	<a href="/contact">Contact</a>
 
-	<a href="/story">Story</a>
+	<a href="/stories">Stories</a>
 
 	<a href="/work">Work</a>
 </div>
