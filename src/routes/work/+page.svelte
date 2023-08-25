@@ -18,6 +18,8 @@
 
 <img src="/Screenshot_20230824_234817.png" alt="" />
 
+<img src="/Screenshot_20230825_113541.png" alt="" />
+
 <style>
 	.flex {
 		display: flex;
